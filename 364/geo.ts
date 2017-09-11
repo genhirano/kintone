@@ -1,5 +1,4 @@
 
-
 ///<reference path="../kintone.d.ts" />
 ///<reference path="../google.maps.d.ts" />
 
@@ -8,7 +7,7 @@ namespace google.maps.Marker {
   export var tracePoints: Array<google.maps.LatLng>;
 }
 
-afunction() {
+(function() {
 
   "use strict";
 
@@ -53,6 +52,8 @@ afunction() {
 
   // 詳細画面を開いた時に実行します
   function detailShow(event) {
+console.log("ろぐ");
+
     if (map == undefined) {
       loadGMap();
     }
