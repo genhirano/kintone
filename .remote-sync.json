@@ -1,0 +1,16 @@
+{
+  "transport": "ftp",
+  "uploadOnSave": true,
+  "useAtomicWrites": false,
+  "deleteLocal": false,
+  "hostname": "ftp.gmoserver.jp",
+  "port": "21",
+  "target": "/gakudan.org/Kintone",
+  "ignore": [
+    ".remote-sync.json",
+    ".git/**"
+  ],
+  "username": "sd0013681@gmoserver.jp",
+  "password": "ZNWnI1S5",
+  "watch": []
+}
