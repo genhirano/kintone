@@ -39,7 +39,6 @@ var google;
         }
     }
     function detailShow(event) {
-        console.log("ろぐ");
         if (map == undefined) {
             loadGMap();
         }

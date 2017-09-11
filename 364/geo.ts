@@ -54,8 +54,6 @@ namespace google.maps.Marker {
 
   // 詳細画面を開いた時に実行します
   function detailShow(event) {
-console.log("ろぐ");
-
     if (map == undefined) {
       loadGMap();
     }
