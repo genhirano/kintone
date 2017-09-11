@@ -7,8 +7,7 @@ var google;
         })(Marker = maps.Marker || (maps.Marker = {}));
     })(maps = google.maps || (google.maps = {}));
 })(google || (google = {}));
-afunction();
-{
+(function () {
     "use strict";
     var map;
     var infowindow;
@@ -40,6 +39,7 @@ afunction();
         }
     }
     function detailShow(event) {
+        console.log("ろぐ");
         if (map == undefined) {
             loadGMap();
         }
@@ -217,5 +217,4 @@ afunction();
         }
         return event;
     });
-}
-();
+})();
