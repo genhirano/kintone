@@ -1,5 +1,4 @@
 
-///<reference path="../kintone.d.ts" />
 ///<reference path="../google.maps.d.ts" />
 
 
