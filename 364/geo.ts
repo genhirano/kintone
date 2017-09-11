@@ -1,17 +1,14 @@
 
+
 ///<reference path="../kintone.d.ts" />
 ///<reference path="../google.maps.d.ts" />
-
 
 
 namespace google.maps.Marker {
   export var tracePoints: Array<google.maps.LatLng>;
 }
 
-
-
-
-(function() {
+afunction() {
 
   "use strict";
 
