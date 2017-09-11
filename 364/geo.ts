@@ -30,6 +30,7 @@ namespace google.maps.Marker {
     script.type = 'text/javascript';
     script.src = src;
 
+
     //PC用の場合（詳細画面）
     if (kintone.app.record.getHeaderMenuSpaceElement()) {
       try {
