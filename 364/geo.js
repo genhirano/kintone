@@ -10,8 +10,6 @@ var google;
     })(maps = google.maps || (google.maps = {}));
 })(google || (google = {}));
 (function () {
-
-
     "use strict";
     var map;
     var infowindow;
